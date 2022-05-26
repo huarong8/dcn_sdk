@@ -12,7 +12,7 @@ DCN-SDK实现了区块服务、交易服务等接口，同时还提供了接口�
     1. 接口名: GetBlockInfoByHash
     2. 示例: 
     ```golang
-       apiUrl := ""
+    apiUrl := ""
    	blockService := NewBlockService(apiUrl)
    	blockHash := "0xca42c55ce0c708d92a77954660a0865557aaea5f8491a87891e0491bc482b60d"
    	result, err := blockService.GetBlockInfoByHash(blockHash)
